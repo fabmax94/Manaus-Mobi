@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#05ab9a"
+    android:padding="0dp">
+
+    <ImageButton
+        android:id="@+id/btn_road"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/inroute"
+        android:layout_weight="1"
+        android:background="#2AB7D3"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/btn_coasting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/coasting"
+        android:layout_weight="1"
+        android:background="#32BEA6"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/btn_weather"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/climate"
+        android:layout_weight="1"
+        android:background="#77B3D4"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"/>
+</LinearLayout>

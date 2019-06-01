@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "552696028513",
+    "firebase_url": "https://tutoria-apps.firebaseio.com",
+    "project_id": "tutoria-apps",
+    "storage_bucket": "tutoria-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552696028513:android:117a495652b1b380",
+        "android_client_info": {
+          "package_name": "com.mobi.samsung.manausmobi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552696028513-ek8oerd5mpfldq0mc3qmh9hkl8357ht0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQznhonpkSU6h3QT1b37ZXg8pHJ_tlJdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

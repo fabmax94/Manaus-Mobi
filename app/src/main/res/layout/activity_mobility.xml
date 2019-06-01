@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobi.samsung.manausmobi.activities.MobilityActivity">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/security"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_secutiry"
+        app:backgroundTint="#0097a7"
+        app:layout_anchor="@id/navigation"
+        app:layout_anchorGravity="top|left" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/safety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_safety"
+        app:backgroundTint="#0097a7"
+        app:layout_anchor="@id/security"
+        app:layout_anchorGravity="top|left" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/navigation" />
+</android.support.design.widget.CoordinatorLayout>
